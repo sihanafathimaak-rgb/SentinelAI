@@ -1,0 +1,14 @@
+SentinelAI
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+└── assets
+    ├── logo.png
+    ├── dashboard.jpg
+    ├── street-light.jpg
+    └── demo-video.mp4
