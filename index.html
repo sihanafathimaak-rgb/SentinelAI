@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SentinelAI - Smart Street Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🚦 SentinelAI</h1>
+    <p>Autonomous Smart Street Intelligence System</p>
+</header>
+
+<section class="dashboard">
+
+    <div class="card">
+        <h2>Street Light Status</h2>
+        <p id="lightStatus">OFF</p>
+        <button onclick="toggleLight()">Toggle Light</button>
+    </div>
+
+
+    <div class="card">
+        <h2>Environment Monitoring</h2>
+        <p>🌧 Weather: <span id="weather">Normal</span></p>
+        <p>🚶 Pedestrians: <span id="people">Low</span></p>
+        <p>🚗 Traffic: <span id="traffic">Medium</span></p>
+    </div>
+
+
+    <div class="card">
+        <h2>Energy Analytics</h2>
+        <p>Energy Saved:</p>
+        <h1 id="energy">35%</h1>
+    </div>
+
+
+    <div class="card">
+        <h2>AI Safety Detection</h2>
+        <p id="alert">
+            No Emergency Detected
+        </p>
+        <button onclick="detectEmergency()">
+            Run AI Scan
+        </button>
+    </div>
+
+</section>
+
+
+<footer>
+    <p>© 2026 SentinelAI | AI + IoT Smart City Solution</p>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
